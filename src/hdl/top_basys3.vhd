@@ -107,8 +107,7 @@ begin
 	       o_S(3) => seg(3),
 	       o_S(4) => seg(4),
            o_S(5) => seg(5),
-           o_S(6) => seg(6)
-           --o_S(7) => seg(7)       	       
+           o_S(6) => seg(6)      	       
 	   );
 	
 	-- CONCURRENT STATEMENTS ----------------------------
