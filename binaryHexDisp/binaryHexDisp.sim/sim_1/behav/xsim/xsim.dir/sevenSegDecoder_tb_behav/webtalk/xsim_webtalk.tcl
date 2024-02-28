@@ -1,6 +1,6 @@
 webtalk_init -webtalk_dir C:/Users/Zachary.Duessler/Documents/281 Projects/lab2/binaryHexDisp/binaryHexDisp.sim/sim_1/behav/xsim/xsim.dir/sevenSegDecoder_tb_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Tue Feb 27 22:13:13 2024" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Tue Feb 27 22:28:02 2024" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2018.2 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "2258646" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -14,7 +14,7 @@ webtalk_add_data -client project -key target_package -value "not_applicable" -co
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "a318d705-5f42-4e0c-8be3-e29e52f33f96" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "2d7a59036eb04c5da31c9e76c09d4b19" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "24" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "26" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Microsoft Windows 8 or later , 64-bit" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz" -context "user_environment"
@@ -36,7 +36,7 @@ webtalk_add_data -client xsim -key Total_Nets -value "0" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Processes -value "15" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Total_Instances -value "6" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Xilinx_HDL_Libraries_Used -value "secureip " -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Time -value "0.34_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Compiler_Memory -value "53596_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 1527670767 -regid "" -xml C:/Users/Zachary.Duessler/Documents/281 Projects/lab2/binaryHexDisp/binaryHexDisp.sim/sim_1/behav/xsim/xsim.dir/sevenSegDecoder_tb_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/Zachary.Duessler/Documents/281 Projects/lab2/binaryHexDisp/binaryHexDisp.sim/sim_1/behav/xsim/xsim.dir/sevenSegDecoder_tb_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/Zachary.Duessler/Documents/281 Projects/lab2/binaryHexDisp/binaryHexDisp.sim/sim_1/behav/xsim/xsim.dir/sevenSegDecoder_tb_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key Compiler_Time -value "0.39_sec" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Compiler_Memory -value "53568_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 3947556927 -regid "" -xml C:/Users/Zachary.Duessler/Documents/281 Projects/lab2/binaryHexDisp/binaryHexDisp.sim/sim_1/behav/xsim/xsim.dir/sevenSegDecoder_tb_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/Zachary.Duessler/Documents/281 Projects/lab2/binaryHexDisp/binaryHexDisp.sim/sim_1/behav/xsim/xsim.dir/sevenSegDecoder_tb_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/Zachary.Duessler/Documents/281 Projects/lab2/binaryHexDisp/binaryHexDisp.sim/sim_1/behav/xsim/xsim.dir/sevenSegDecoder_tb_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate
