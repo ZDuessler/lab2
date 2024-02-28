@@ -33,7 +33,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity sevenSegDecoder is
     Port ( 
-        o_S : out std_logic_vector(7 downto 0);    
+        o_S : out std_logic_vector(6 downto 0);    
         i_D : in STD_LOGIC_VECTOR (3 downto 0)  
     );
 end sevenSegDecoder;
@@ -48,7 +48,7 @@ architecture Behavioral of sevenSegDecoder is
     signal c_Se : std_logic := '1';
     signal c_Sf : std_logic := '1';
     signal c_Sg : std_logic := '1';
-    signal c_Sh : std_logic := '0';
+    --signal c_Sh : std_logic := '0';
 
 begin
 
@@ -60,7 +60,7 @@ begin
     o_S(4) <= c_Se;
     o_S(5) <= c_Sf;
     o_S(6) <= c_Sg;
-    o_S(7) <= c_Sh;
+    --o_S(7) <= c_Sh;
     
 
     c_Sa <= '1' when (  (i_D = x"1") or
